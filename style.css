@@ -320,4 +320,10 @@ footer {
         padding: 0 10px !important;
         border: none !important;
     }
+
+    .noticia-grupo img {
+    height: 300px;
+    object-fit: cover;
+    }
+
 }

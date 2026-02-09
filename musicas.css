@@ -20,7 +20,7 @@ header nav a:nth-child(3) {
     width: 100%;
 }
 
-/* --- Bloco de Cima (2 Notícias Lado a Lado) --- */
+/* --- Bloco de Cima --- */
 .noticias {
     display: flex;
     gap: 40px;
@@ -29,12 +29,12 @@ header nav a:nth-child(3) {
 }
 
 .noticias .noticia-grupo {
-    display: flex; /* Coloca imagem e bloco de texto lado a lado */
+    display: flex; 
     gap: 15px;
     width: 50%;
     align-items: flex-start;
     cursor: pointer;
-    flex: 1;          /* força mesmo tamanho */
+    flex: 1;          
     min-height: 220px;
     transition: transform 0.3s ease;
 }
@@ -63,13 +63,13 @@ header nav a:nth-child(3) {
     margin: 0;
     font-size: 0.95rem;
     line-height: 1.4;
-    color: #444; /* Uma cor levemente mais suave para o texto */
+    color: #444; 
 }
 
 
 .noticias2 .noticia-grupo {
     display: flex;
-    flex-direction: column; /* Imagem em cima, título embaixo */
+    flex-direction: column; 
     align-items: center;
     cursor: pointer;
     transition: transform 0.3s ease;

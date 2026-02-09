@@ -44,8 +44,8 @@ header nav a:nth-child(5){
 }
 
 .noticia-grupo img {
-    width: 243px;      /* LARGURA */
-    height: 344px;     /* ALTURA */
+    width: 243px;     
+    height: 344px;     
     object-fit: cover;
     border-radius: 6px;
     opacity: 0.6;
@@ -76,7 +76,6 @@ header nav a:nth-child(5){
     cursor: pointer;
 }
 
-
 .noticias {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -85,38 +84,34 @@ header nav a:nth-child(5){
     width: 100%;
 }
 
-/* ===== CARD ===== */
-
 .noticia-grupo {
     position: relative;
     cursor: pointer;
     overflow: hidden;
 }
 
-/* ===== IMAGEM ===== */
-
 .noticia-grupo img {
     width: 100%;
     height: 180px;
     object-fit: cover;
     border-radius: 6px;
-    opacity: 0.6;                 /* transparente */
+    opacity: 0.6;                
     transition: opacity 0.3s ease;
 }
 
-/* hover da imagem */
+
 .noticia-grupo:hover img {
-    opacity: 1;                   /* opacidade total */
+    opacity: 1;                 
 }
 
-/* ===== TEXTO SOBRE A IMAGEM ===== */
+
 
 .texto {
     position: absolute;
     bottom: 0;
     width: 100%;
     padding: 10px;
-    background: rgba(0, 0, 0, 0); /* fundo transparente */
+    background: rgba(0, 0, 0, 0); 
     box-sizing: border-box;
     transition: background 0.3s ease;
 }
@@ -125,12 +120,11 @@ header nav a:nth-child(5){
     margin: 0;
     color: white;
     font-size: 1.1rem;
-    opacity: 1;                  /* texto transparente */
+    opacity: 1;               
     transition: opacity 0.3s ease;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
 }
 
-/* hover do texto */
 .noticia-grupo:hover h3 {
     opacity: 1;
 }
@@ -141,14 +135,12 @@ header nav a:nth-child(5){
     justify-content: center;
 }
 
-/* ===== CARD ===== */
 .noticia-grupo {
     width: 243px;
     position: relative;
     overflow: hidden;
 }
 
-/* ===== IMAGEM ===== */
 .noticia-grupo img {
     width: 243px;
     height: 344px;
@@ -158,12 +150,10 @@ header nav a:nth-child(5){
     transition: opacity 0.3s ease;
 }
 
-/* hover imagem */
 .noticia-grupo:hover img {
     opacity: 1;
 }
 
-/* ===== TEXTO ===== */
 .texto {
     position: absolute;
     bottom: 0;
