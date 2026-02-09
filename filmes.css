@@ -1,18 +1,20 @@
-header nav a:first-child{
-    color:white;
+header nav a:first-child {
+    color: white;
 }
 
-header nav a:nth-child(2){
-    color:#C300AF;
+header nav a:nth-child(2) {
+    color: #C300AF;
 }
 
-.cor-v{
+.cor-v {
     color: red;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     font-weight: 600;
 }
 
-.noticias, .noticias2, .noticias3 {
+.noticias,
+.noticias2,
+.noticias3 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
@@ -21,8 +23,9 @@ header nav a:nth-child(2){
     width: 100%;
     box-sizing: border-box;
 }
+
 .filmes-main {
-    display: block; 
+    display: block;
 }
 
 .noticia-grupo {
@@ -30,74 +33,58 @@ header nav a:nth-child(2){
     display: flex;
     flex-direction: column;
 }
+
 .noticia-grupo img {
     width: 100%;
-    height: 180px; 
-    object-fit: cover; 
+    height: 180px;
+    object-fit: cover;
     display: block;
     border-radius: 6px;
 }
+
 .noticia-grupo h3 {
     text-align: center;
     font-size: 1rem;
     margin-top: 8px;
 }
+
 .noticia-grupo h3 {
     font-size: 1.3rem;
     margin-top: 10px;
     text-align: justify;
     line-height: 1.4;
-} 
+}
 
 .noticia-grupo {
     display: flex;
     flex-direction: column;
-    background: none;        
-    border-radius: 5px;        
-    padding: 0;              
-    box-shadow: none;        
+    background: none;
+    border-radius: 5px;
+    padding: 0;
+    box-shadow: none;
     transition: transform 0.3s ease;
     cursor: pointer;
 }
 
 .noticia-grupo:hover {
-    transform: scale(1.05);  /* aumenta ao passar o mouse */
+    transform: scale(1.05);
+    /* aumenta ao passar o mouse */
 }
 
 @media (max-width: 800px) {
-    .noticias, .noticias2, .noticias3 { grid-template-columns: repeat(2, 1fr); }
+
+    .noticias,
+    .noticias2,
+    .noticias3 {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
+
 @media (max-width: 480px) {
-    .noticias, .noticias2, .noticias3 { grid-template-columns: 1fr; }
+
+    .noticias,
+    .noticias2,
+    .noticias3 {
+        grid-template-columns: 1fr;
+    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
