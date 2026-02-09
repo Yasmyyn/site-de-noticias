@@ -116,6 +116,26 @@ main {
     white-space: nowrap;
     margin-top: 5px;
 }
+#botao-saiba-mais {
+    background-color: #FF0000;
+    color: white;
+    border: none;
+    padding: 6px 40px;
+    border-radius: 5px;
+    font-size: 15px;
+    white-space: nowrap;
+    margin-top: 5px;
+    cursor: pointer;
+
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+#botao-saiba-mais:hover {
+    transform: scale(1.1); 
+    background-color: #cc0000; 
+}
+
+
 /* Primeira seção */
 .noticia-principal h2 {
     font-size: 45px;
@@ -137,13 +157,19 @@ main {
 
 .noticia-principal ul li::marker{
     color: #C300AF;
-    /*content: "oie"; dentro das aspas ele coloca na frente, pode ser icones, palavras etc*/
 }
 
 .noticia-principal ul li{
     font-size: 15px;
     font-weight: 300;
     padding-bottom: 5px;
+}
+.noticia-grupo {
+    transition: transform 0.3s ease;
+}
+
+.noticia-grupo:hover {
+    transform: scale(1.06);
 }
 
 main section:first-child {

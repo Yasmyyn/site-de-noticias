@@ -1,0 +1,114 @@
+/* --- Navegação --- */
+header nav a:first-child {
+    color: white;
+}
+
+header nav a:nth-child(3) {
+    color: #C300AF;
+}
+
+.musicas-main {
+    display: block; 
+}
+
+.noticias2 {
+    display: flex;
+    gap: 20px;
+}
+
+.noticias2 .noticia-grupo {
+    width: 100%;
+}
+
+/* --- Bloco de Cima (2 Notícias Lado a Lado) --- */
+.noticias {
+    display: flex;
+    gap: 40px;
+    margin: 30px 0;
+    width: 100%;
+}
+
+.noticias .noticia-grupo {
+    display: flex; /* Coloca imagem e bloco de texto lado a lado */
+    gap: 15px;
+    width: 50%;
+    align-items: flex-start;
+    cursor: pointer;
+    flex: 1;          /* força mesmo tamanho */
+    min-height: 220px;
+    transition: transform 0.3s ease;
+}
+
+.noticias .noticia-grupo:hover {
+    transform: scale(1.03);
+}
+.noticias .noticia-grupo img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.texto-noticia p {
+    text-align: justify;
+}
+
+.noticias .noticia-grupo h3 {
+    margin: 0 0 8px 0;
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+.noticias .noticia-grupo p {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.4;
+    color: #444; /* Uma cor levemente mais suave para o texto */
+}
+
+
+.noticias2 .noticia-grupo {
+    display: flex;
+    flex-direction: column; /* Imagem em cima, título embaixo */
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.noticias2 .noticia-grupo:hover {
+    transform: scale(1.05);
+}
+
+.noticias2 .noticia-grupo img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+
+.noticias2 .noticia-grupo h3 {
+    text-align: center;
+    margin: 0;
+    line-height: 1.4;
+    font-size: 1.1rem;
+}
+
+.btn-ouca {
+    background-color: #C300AF;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.btn-ouca:hover {
+    transform: scale(1.08);
+    box-shadow: 0 6px 15px rgba(195, 0, 175, 0.35);
+}
+
